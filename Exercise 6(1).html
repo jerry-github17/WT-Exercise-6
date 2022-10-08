@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Exercise 6:1</title>
+    
+
+    <style>  /* Initial Css */
+        #mbox{ 
+            background-color: rgb(181, 176, 176);
+            margin: 20px auto;
+            width:500px;
+            height:600px;
+            padding: 20px;
+        }
+        #box{
+            border:2px solid blue;
+            background-color: yellow;
+            margin: 20px auto;
+            width:200px;
+            height:200px;
+        }
+        #text{
+            color: blue;
+            padding-top: 85px;
+            text-align: center;
+            
+        } 
+    </style>
+    
+
+</head>
+
+<body>
+
+    <script src="Jscript1.js"></script> 
+
+    <div id="mbox">
+        <div id="box">
+            <div id="text">
+                Java Script
+            </div>
+    
+        </div>
+    
+        <div class="form">
+            <form>
+                Background Color: <input type="color" id='bg-c' onchange="bgc()"><br><br>
+                Text Color: <input type="color" id='t-c' onchange="tc()"><br><br>
+
+                Text Size: <input type="number" min="1" max="30" id='t-s' onkeypress="ts()"><br><br>
+
+                Box Width: <input type="text" id='b-w' onkeyup="bw()"><br><br>
+                Box Height: <input type="text" id='b-h' onkeyup="bh()"><br><br>
+
+                Border Radius: <input type="range"  id='b-r' onchange="br()"><br><br>
+                
+            </form>
+        </div>
+
+    </div> 
+</body>
+</html>

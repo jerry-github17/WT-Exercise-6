@@ -1,0 +1,38 @@
+#container {
+    width: 1500px;
+    height: 300px;
+    position: relative;
+   
+}
+
+#car{
+    position:absolute;  
+}
+
+#text{
+    color: blue;
+    padding-top: 85px;
+    text-align: center;
+    
+}
+#splash{
+    display:none;
+    background-color: red;
+    color: whitesmoke;
+    width: 20%;
+    padding:20px ;
+    text-align: center;
+    font-size: 20px;
+    float: right;
+    position:relative;
+
+} 
+#button {
+    background-color: grey;
+    border: 2px solid black;
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    width: 20%;    
+}
